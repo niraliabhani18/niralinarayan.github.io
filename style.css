@@ -195,7 +195,7 @@ section { padding-block: clamp(64px, 9vw, 130px); position: relative; }
    =================================================================== */
 .timeline { display: grid; gap: clamp(18px, 3vw, 30px); margin-top: clamp(28px, 4vw, 48px); }
 .job {
-  background: var(--cream); border: 1px solid var(--line-soft); border-radius: var(--radius);
+  background: var(--cream); color: var(--ink); border: 1px solid var(--line-soft); border-radius: var(--radius);
   padding: clamp(22px, 3vw, 38px);
   display: grid; grid-template-columns: 230px 1fr; gap: clamp(20px, 3vw, 46px);
   transition: transform .25s, box-shadow .25s, border-color .25s;
@@ -237,7 +237,7 @@ section { padding-block: clamp(64px, 9vw, 130px); position: relative; }
    =================================================================== */
 .certs { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: clamp(16px, 2.4vw, 24px); margin-top: clamp(28px, 4vw, 48px); }
 .cert {
-  background: var(--cream); border: 1px solid var(--line-soft); border-radius: var(--radius);
+  background: var(--cream); color: var(--ink); border: 1px solid var(--line-soft); border-radius: var(--radius);
   padding: clamp(20px, 2.6vw, 28px); position: relative; transition: transform .22s, border-color .22s;
 }
 .cert:hover { transform: translateY(-3px); border-color: var(--coral); }
